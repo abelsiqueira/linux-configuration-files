@@ -3,6 +3,9 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
 
+alias git-diff='git diff --color-words'
+
+alias updgrade='sudo aptitude update && sudo aptitude upgrade'
 alias kissfm='mplayer -playlist http://www.crosshost.com.br/cbs/kiss/ouvir.m3u'
 alias q='exit'
 alias h='history'
