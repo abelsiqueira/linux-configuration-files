@@ -4,7 +4,6 @@
 
 setterm -blength 0
 
-export BASHRC="$HOME/.bashrc"
 export EDITOR="vim"
 
 # If not running interactively, don't do anything
@@ -69,4 +68,4 @@ fi
 #echo "                           "
 
 date
-PS1='\[\e[1;37m\]\w\$\[\e[0m\] '
+PS1='\e[0;34m[\t]\e[0;31m\u@\h:\e[0;33m\w\$\e[0;32m '
