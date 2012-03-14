@@ -1,0 +1,20 @@
+[user]
+	name = Abel Siqueira
+	email = abel.s.siqueira@gmail.com
+[github]
+	user = abelsiqueira
+	token = 5fe325c1b50a387e66f6ef4ceb7a3207
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	grep = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	df = diff --color-words
+	lg = log --pretty=short -3
+	graph = log --pretty=oneline --graph
