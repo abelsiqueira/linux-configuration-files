@@ -1,0 +1,22 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+  go_next = <Super>j
+  go_prev = <Super>k
+[profiles]
+  [[default]]
+    background_darkness = 0.9
+    use_system_font = False
+    font = Inconsolata Medium 15
+    background_type = transparent
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
