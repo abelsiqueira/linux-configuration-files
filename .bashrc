@@ -45,28 +45,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-#startupdraw $LINES $COLUMNS ~/startupscript.sh
-#chmod +x ~/startupscript.sh
-#~/startupscript.sh
-#rm -f ~/startupscript.sh
-
-#echo "#   #  #####  #      #       ###  "
-#echo "#   #  #      #      #      #   # "
-#echo "#   #  #      #      #      #   # "
-#echo "#####  #####  #      #      #   # "
-#echo "#   #  #      #      #      #   # "
-#echo "#   #  #      #      #      #   # "
-#echo "#   #  #####  #####  #####   ###  "
-#echo "                           "
-#echo " ###   ####   #####  #     "
-#echo "#   #  #   #  #      #     "
-#echo "#   #  #   #  #      #     "
-#echo "#####  ####   #####  #     "
-#echo "#   #  #   #  #      #     "
-#echo "#   #  #   #  #      #     "
-#echo "#   #  ####   #####  ##### "
-#echo "                           "
-
 date
-PS1='\e[0;34m[\t]\e[0;31m\u@\h:\e[0;33m\w\$\e[0;32m '
-PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
+PS1='\u@\h:\w\$ '
+#PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
